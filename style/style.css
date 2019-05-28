@@ -25,7 +25,18 @@ body, html {
   line-height: 2em;
 }
 
+.informationrow {
+  padding: 1em;
+}
+
 .openingsuren ul li {
   list-style: none;
+}
+
+.col-md-6 button {
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background: transparent;
 }
 /*# sourceMappingURL=style.css.map */

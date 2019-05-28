@@ -1,0 +1,24 @@
+
+var d = new Date();
+
+var day = d.getDay();
+var hour = d.getHours();
+
+
+
+
+    if (day >= 1 && day <= 5 && hour >= 8 && hour <= 19) {
+        document.getElementById("openclose").insertAdjacentHTML("beforeend", "geopend");
+
+    } else if (day >= 6 && 7 <= day && hour >= 9 && hour <= 19) {
+        document.getElementById("openclose").insertAdjacentHTML("beforeend", "geopend");
+
+    } else {
+        document.getElementById("openclose").insertAdjacentHTML("beforeend", "gesloten");
+    }
+
+
+
+var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+
+document.getElementById("LiveClock").insertAdjacentHTML("beforeend", time);

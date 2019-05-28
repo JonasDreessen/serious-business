@@ -1,0 +1,31 @@
+body, html {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#94b0da), color-stop(#95aacf), color-stop(#95a4c5), color-stop(#949eba), color-stop(#9298b0), color-stop(#868fa3), color-stop(#7c8697), color-stop(#727d8a), color-stop(#5f6d77), color-stop(#4f5e63), color-stop(#414e50), to(#343f3e));
+  background-image: linear-gradient(to right top, #94b0da, #95aacf, #95a4c5, #949eba, #9298b0, #868fa3, #7c8697, #727d8a, #5f6d77, #4f5e63, #414e50, #343f3e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.headingrow {
+  margin-bottom: 2em;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  letter-spacing: 0.01em;
+}
+
+.informationrow {
+  line-height: 2em;
+}
+
+.openingsuren ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

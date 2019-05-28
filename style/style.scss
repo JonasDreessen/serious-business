@@ -1,0 +1,32 @@
+body,html{
+    background-image: linear-gradient(to right top, #94b0da, #95aacf, #95a4c5, #949eba, #9298b0, #868fa3, #7c8697, #727d8a, #5f6d77, #4f5e63, #414e50, #343f3e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.headingrow{
+    margin-bottom: 2em;
+}
+.heading{
+    text-align: center;
+    h2{
+        letter-spacing: 0.01em;
+    }
+}
+
+.informationrow{
+    line-height: 2em;
+}
+.openingsuren{
+    ul{
+        li{
+            list-style: none;
+
+        }
+    }
+}

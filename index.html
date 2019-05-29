@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Serious Business</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,13 +20,13 @@
     <div class="col-md-6 openingsuren">
         <ul>
             <li>Openingsuren</li>
-            <li>Ma - Vr 08:00 - 19:00</li>
+            <li>Ma - Vr 08:00 - <span id="closingTime">19:00</span></li>
             <li>Za - Zo 09:00 - 18:00</li>
         </ul>
 
         <div class="col-md-6">
             <button>
-            <span id="LiveClock"> </span>
+            <span id="LiveClock" onclick="changeClosingTime()"> </span>
         </button>
         </div>
     </div>
